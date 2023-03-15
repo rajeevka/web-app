@@ -1,0 +1,52 @@
+.Navbar{
+   
+    width: 99.8%;
+    height: 15vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 0px 1px rgb(196, 193, 193);
+}
+.Navbar .logoleft{
+    /* border: 2px solid red; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar .Navbarmidle p:hover{
+      cursor: pointer;
+}
+.Navbar .Navbarmidle{
+    /* border: 2px solid red; */
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.Navbar .Navbarmidle a{
+    color: rgb(26, 14, 120);
+ text-decoration: none;
+}
+
+.Navbar .Navbarright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    /* border: 2px solid red; */
+}
+.Navbar .Navbarright button{
+    width: 170px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    
+}
+.Navbar .Navbarright button:hover{
+    background-color: rgb(41, 41, 221);
+    cursor: pointer;
+}

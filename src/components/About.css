@@ -1,0 +1,49 @@
+.about{
+    height: 80vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.about h1{
+    text-align: center;
+    width: 80%;
+    font-size: 4rem;
+}
+.about p{
+    width: 80%;
+}
+.projects{
+    height: 80vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects h2{
+    line-height: 20px;
+    font-size: 6rem;
+}
+.projects .sp span{
+
+  font-size: 22rem;
+}
+.contact{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact .cl{
+    width: 40%;
+}
+.contact .cr{
+    width: 40%;
+}
